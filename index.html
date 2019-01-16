@@ -105,7 +105,7 @@
                   <i class="fas fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="Screen shot of the impurity calculator app">
+              <img class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="Screenshot of the Impurity Calculator app">
             </a>
             <div class="portfolio-caption">
               <h4>Impurity Calculator</h4>
@@ -121,27 +121,27 @@
                   <i class="fas fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="Screen shot of the trip listings app">
+              <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="Screenshot of the Trip Listings app">
             </a>
             <div class="portfolio-caption">
               <h4>Trip Listings</h4>
-              <p class="text-muted">An app built using React.js</p>
+              <p class="text-muted">An app built using React</p>
             </div>
           </div>
 
           <!-- Project # 3 -->
           <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" href="">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fas fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="Coming Soon">
+              <img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="Screenshot of the Grocery List Manager app">
             </a>
             <div class="portfolio-caption">
-              <h4>Coming Soon</h4>
-              <p class="text-muted">Coming Soon</p>
+              <h4>Grocery List Manager</h4>
+              <p class="text-muted">An advanced JavaScript app<br>(in-progress)</p>
             </div>
           </div>
           
@@ -278,15 +278,8 @@
 
     <!-- Footer -->
     <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <span class="copyright">Copyright &copy; Farah Ateeq 2018</span>
-          </div>
-          <div class="col-md-8">
-            <span class="copyright">This website was made using the Agency theme from Start Bootstrap.</span>
-          </div>
-        </div>
+      <div class="container-fluid">
+        Copyright &copy; Farah Ateeq 2019 &bull; Copyright &copy; 2013-2018 Blackrock Digital LLC
       </div>
     </footer>
 
@@ -378,6 +371,52 @@
                       <img class="img-fluid d-block mx-auto" src="img/portfolio/02-responsive.jpg" alt="screenshot of app 3">
                     </figure>
                     </div>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Grocery List Manager</h2>
+                  <p class="item-intro text-muted">An Advanced JavaScript Project (In-Progress)</p>
+                  <div class="text-left">
+                    <h4>Summary</h4>
+                    <p>This project is not complete yet and I am actively working on it. You can follow along its progress on <a target="_blank" href="https://github.com/fateeq/grocerylist">GitHub</a>.</p>
+                    <p>I picked this project to work on for multiple reasons:</p>
+                      <ul>
+                        <li>increase the complexity of the projects I have been working on,</li>
+                        <li>practice ES6+ features,</li>
+                        <li>start working with databases</li>
+                        <li>compare pure JS and React JS side-by-side. (I plan on building the exact app using React JS as well.)</li>
+                      </ul>
+                    <h4>App Features</h4>
+                    <ul>
+                      <li>A calendar showing the meal plan for one, or optionally two weeks.</li>
+                      <li>A grocery list generated automatically based on the meal plan.</li>
+                      <li>Cost estimates from multiple stores for the generated grocery list.</li> 
+                    </ul>
+                    <h4>Some mockups of the app</h4>
+                    <img class="img-fluid d-block mx-auto" src="img/portfolio/03-homepage.jpg" alt="mockup of app 1">
+                    <img class="img-fluid d-block mx-auto" src="img/portfolio/03-section1.jpg" alt="mockup of app 2">
+                    <img class="img-fluid d-block mx-auto" src="img/portfolio/03-section2.jpg" alt="mockup of app 3">
+                  </div>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">Close</button>
                 </div>
               </div>
