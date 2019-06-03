@@ -182,7 +182,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/BeFunky-collage-darkblue.jpg");
+  background-image: url("../img/clint-adair-68588-unsplash-4.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -203,7 +203,7 @@ header.masthead .intro-text .intro-lead-in {
 }
 
 header.masthead .intro-text .intro-heading {
-  color: #FCDC6D;
+  color: #ffd23a;
   font-size: 50px;
   font-weight: 700;
   line-height: 50px;
@@ -217,8 +217,8 @@ header.masthead .intro-text .intro-heading {
     padding-bottom: 200px;
   }
   header.masthead .intro-text .intro-heading {
-    color: #FCDC6D ;
-    font-size: 75px;
+    color: #ffd23a ;
+    font-size: 55px;
     font-weight: 700;
     line-height: 75px;
     margin-bottom: 60px;
