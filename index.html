@@ -48,13 +48,13 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav text-uppercase ml-auto">
             <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -77,18 +77,104 @@
       </div>
     </header>
 
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Hello!</h2>
+            <h3 class="section-subheading text-muted">Thanks for visiting</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <p>I'm a data scientist, full stack developer and a former chemist who is passionate about solving problems, working with data, and simplifying processes. Keep scrolling to see some of my projects.</p>
+            <p>Outside of work, I like camping, hiking, crafting and reading.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Portfolio Grid -->
     <section class="bg-light" id="portfolio">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Portfolio</h2>
-            <!-- <h3 class="section-subheading text-muted">Details of my projects</h3> -->
+            <h3 class="section-subheading text-muted">Details of my data science and web development projects</h3>
           </div>
         </div>
+        
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h4 class="portfolio-subheading text-uppercase">Data Science</h4>
+          </div>
+        </div>
+        
         <div class="row">
           
-          <!-- Project # 1 -->
+          <!-- Project # 7 -->
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal7">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/07-thumbnail.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Clinical Natural Language Processing</h4>
+              <p>Python (including various libraries)</p>
+              <p class="text-muted">A machine learning project, <br>in-development</p>
+            </div>
+          </div>
+
+          <!-- Project # 6 -->
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/06-thumbnail.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Chemical Analysis Tools Comparison</h4>
+              <p>MS Excel</p>
+              <p class="text-muted">Extracting insights from data with the help of visualizations</p>
+            </div>
+          </div>
+
+          <!-- Project # 5 -->
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Gaining Insights From Product Data</h4>
+              <p>MS Excel</p>
+              <p class="text-muted">Data cleansing, analysis and visualization</p>
+            </div>
+          </div>
+
+        </div>  
+          
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h4 class="portfolio-subheading text-uppercase">Web Development</h4>
+          </div>
+        </div>
+
+        <div class="row">
+
+          <!-- Project # 4 -->
           <div class="col-md-4 col-sm-6 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
               <div class="portfolio-hover">
@@ -107,23 +193,6 @@
 
           <!-- Project # 2 -->
           <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/03-thumbnail-2.jpg" alt="Screenshot of the Grocery List Manager app">
-            </a>
-            <div class="portfolio-caption">
-              <h4>Grocery List Manager</h4>
-              <p>React app, in-development</p>
-              <p class="text-muted">Manages a weekly meal plan, generates a grocery list, and displays cost.</p>
-            </div>
-          </div>
-
-          <!-- Project # 3 -->
-          <div class="col-md-4 col-sm-6 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
@@ -139,7 +208,7 @@
             </div>
           </div>
 
-          <!-- Project # 4 -->
+          <!-- Project # 1 -->
           <div class="col-md-4 col-sm-6 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
               <div class="portfolio-hover">
@@ -156,35 +225,25 @@
             </div>
           </div>
 
-          <!-- <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" href="">
+          <!-- Project # 3 -->
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fas fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">
+              <img class="img-fluid" src="img/portfolio/03-thumbnail-2.jpg" alt="Screenshot of the Grocery List Manager app">
             </a>
             <div class="portfolio-caption">
-              <h4>Southwest</h4>
-              <p class="text-muted">Website Design</p>
+              <h4>Grocery List Manager</h4>
+              <p>React app, in-development</p>
+              <p class="text-muted">Manages a weekly meal plan, generates a grocery list, and displays cost.</p>
             </div>
           </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" href="">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/06-thumbnail.jpg" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>Window</h4>
-              <p class="text-muted">Photography</p>
-            </div>
-          </div> -->
-        
+
+        </div>
+          
         </div>
       </div>
     </section>
@@ -217,24 +276,6 @@
               <li>SQL (PostgreSQL)</li>
               <li>Git, NPM, Heroku</li>
             </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <!-- About -->
-    <section class="bg-light" id="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Hello</h2>
-            <!-- <h3 class="section-subheading text-muted">Thanks for visiting</h3> -->
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <p>I'm a data scientist, full stack developer and a former chemist who is passionate about solving problems, working with data, and simplifying processes. Outside of work, I like camping, hiking, crafting and reading.</p>
           </div>
         </div>
       </div>
@@ -298,13 +339,11 @@
                   <p class="item-intro text-muted">A Beginner Javascript Project</p>
                   <div class="text-left">
                     <h4>Summary</h4>
-                    <p>The Impurity Calculator is a beginner JavaScript application, the inspiration for which came from a problem I faced often at work when I was a chemist. The application is essentially a clean-looking, error-free alternative to the spreadsheet calculations my colleagues had to perform and that I had to review.</p> 
+                    <p>The Impurity Calculator is a JavaScript application, the inspiration for which came from a problem I faced often at work when I was a chemist. The application is essentially a clean-looking, error-free alternative to the spreadsheet calculations my colleagues had to perform and that I had to review.</p> 
                     <p>While I drew inspiration from problems at work, this application was created solely for my practice.</p>
                     <p>Tools used: HTML, CSS, JavaScript</p>
                     <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
-                    <p>You can interact with the application <a href="https://fateeq.github.io/impurityCalculator/" target="_blank">here</a> and view the code on <a href="https://github.com/fateeq/impurityCalculator" target="_blank">GitHub</a>. For notes and rules on the calculations, please see <a href="https://github.com/fateeq/impurityCalculator" target="_blank">GitHub</a>.</p>
-                    <h4>Future Work</h4>
-                    <p>While my application is not perfect, I am happy with the amount of practice I received working on it. I decided to move on to more advanced sections of my course and learn better ways of writing code. I will be visiting this application, or something very similar to it in the future and challenge myself to build it using good coding practices.</p>
+                    <p>You can interact with the application <a href="https://fateeq.github.io/impurityCalculator/" target="_blank">here</a> (only optimized for desktop mode) and view the code on <a href="https://github.com/fateeq/impurityCalculator" target="_blank">GitHub</a>.</p>
                   </div>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">Close</button>
                 </div>
@@ -422,6 +461,145 @@
                     <h4>Screenshots of the app (once signed-in):</h4>
                     <img class="img-fluid d-block mx-auto" src="img/portfolio/face-finder.jpg" alt="screenshot">
                     <img class="img-fluid d-block mx-auto" src="img/portfolio/face-finder-2.jpg" alt="screenshot">
+                  </div>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 5 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Gaining Insights From Product Data</h2>
+                  <p class="item-intro text-muted">A data analysis project completed for work</p>
+                  <div class="text-left">
+                    <p>Last year, I worked as a Regulatory Affairs Specialist for a veterinary pharmaceutical company. As part of a project, the manager ordered eight animal feeds to be manufactured at various feed mills. Our lab performed the chemical analysis on the feeds and reported the results on an Excel spreadsheet, with any non-conforming data highlighted in red. The manager handed over the spreadsheet to me - which consisted of 600 data points, half of which were non-conforming. He asked me to make the best of a bad situation, mentioning that this was the third time he had the feeds manufactured due to half the data not conforming.</p>
+                    <p>I discovered that there were several major factors contributing to the bad data, including errors in manufacturing, sampling, lab analysis, malfunctioning equipment, incorrect spreadsheet calculations, and even doing the wrong statistics. I learnt about the feed manufacturing process from manuals, looked through manufacturing batch record for errors, talked with lab analysts through the entire process step-by-step of how they collected samples and prepared their chemical solutions, asked the manager how the feed gets used in real life and how best to look at the data, and also consulted a statistician on the calculations that were being performed.</p>
+                    <p>Based on my new insights, I was able to clean up the data and conducted the data analysis using proper statistical methods. This resulted in only 3-4 non-conforming data points, and I was able to give an explanation for each of those remaining non-conforming points. This helped my team move on to the next step of the project. It also saved this project from failing FDA's approval and saved the team $50K as well as 6 months of project time due to not having to manufacture the feeds a fourth time.</p> 
+                    <p>Tools used: MS Excel</p>
+                  </div>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 6 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Comparison of Two Different Tools</h2>
+                  <p class="item-intro text-muted">A data cleansing, analysis and visualization project</p>
+                  <div class="text-left">
+                    <p>This project was one of many that I completed as part of my M.Sc. thesis.<br>(My thesis was on the removal of phosphorus from wastewater to low levels and the chemical analysis of phosphorus. <a href="https://scholars.wlu.ca/etd/1889/" target="_blank">Link to abstract</a>)</p>
+                    <p><strong>Question to be answered:</strong> is there a correlation between Method 1 (ICP-OES) and Method 2 (colorimetry with persulfate digestion)?</p>
+                    <p><strong>Dataset:</strong> Measurement results of phosphorus concentration (reported in units of mg P/L) from two different chemical analytical methods (ICP-OES and colorimetry with persulfate digestion) on 91 wastewater samples from various sources. Some samples had duplicate and triplicate measurements. The 91 samples were further divided into three groups of 6, 18 and 67 depending on specific type and source of the wastewater sample.</p>
+                    <p><strong>Steps:</strong>
+                      <ol>
+                        <li>Use averages and standard deviations to represent duplicate and triplicate measurements.</li>
+                        <li>Remove unusable data (for example, anything below detection limit of the analytical instruments).</li>
+                        <li>Merge data from various spreadsheets into one and format to visualize data easily.</li>
+                        <li>Perform exploratory calculations and analyses and note down all insights.</li>
+                        <li>Create final well-formatted visualizations to show concepts.</li>
+                      </ol>
+                    </p>
+                    <figure>
+                      <img src="img/portfolio/06-spreadsheet.jpg" alt="" style="width:80%">
+                      <figcaption><strong>Figure 1</strong>. Excerpt from final spreadsheet.</figcaption>
+                    </figure>
+                     <figure>
+                      <img src="img/portfolio/06-exploratoryPlot.png" alt="" style="width:50%">
+                      <figcaption><strong>Figure 2</strong>. Initial plot showing linear regression on the data to explore the results</figcaption>
+                    </figure>
+                    <figure>
+                      <img src="img/portfolio/06-finalPlot.png" alt="" style="width:100%">
+                      <figcaption><strong>Figure 3</strong>. Linear regression on wastewater samples. The x- and y- axes are in logarithmic scale and have been greyed to view the data points easily</figcaption>
+                    </figure>
+                    <figure>
+                      <img src="img/portfolio/06-extraPlot.png" alt="" style="width:100%">
+                      <figcaption><strong>Figure 4</strong>. Relationship between ICP-P/colorimetry-P and colorimetry-P (col-P) for all wastewater samples. The different graphs show the same data with different x-axis scales. The black horizontal line represents ICP/Colorimetry = 1.</figcaption>
+                    </figure>
+                    <p><strong>Insights:</strong>
+                      <ol>
+                        <li>As the slope and the intercept are higher than 1 and 0 respectively in Figure 3, the linear regression analysis implies that the TP measured by ICP is consistently higher than that measured by colorimetry.</li>
+                        <li>The relationship of ICP-P/colorimetry-P to colorimetry-P (shown in Figure 4) indicates that the deviation from the 1:1 is increasingly more significant for concentrations below 0.15 mg P/L.</li>
+                      </ol>
+                    </p>
+                  </div>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">Close</button>
+                </div>
+              </div>
+            </div>
+          </div> 
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 7 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Clinical NLP</h2>
+                  <p class="item-intro text-muted">A machine learning project</p>
+                  <div class="text-left">
+                    <p>This project is currently in progress and follows a tutorial by <a href="https://towardsdatascience.com/introduction-to-clinical-natural-language-processing-predicting-hospital-readmission-with-1736d52bc709" target="_blank">Towards Data Science</a>. The project's purpose is to take real hospital data and use it to build a computational model that can predict whether a patient will be readmitted in 30 days.</p>
+                    <p>As part of the project, I will be:
+                      <ul>
+                        <li>
+                          <strong>Preparing data for machine learning</strong>
+                          <br>(filtering, sorting, formatting, merging, etc.),
+                        </li>
+                        <li>
+                          <strong>pre-processing unstructured notes using a <a href="https://medium.com/greyatom/an-introduction-to-bag-of-words-in-nlp-ac967d43b428" target="_blank">Bag Of Words</a> approach</strong>
+                          <br>(coverting text into numbers for the model),
+                        </li> 
+                        <li>
+                          <strong>creating a customized model</strong> that can predict if a patient will be readmitted in 30 days, with the <a href="https://www.statisticssolutions.com/what-is-logistic-regression/" target="_blank">Logistic Regression</a> as a base model,
+                        </li>
+                        <li><strong>assessing the model’s quality</strong>,</li>
+                        <li>and <strong>improving upon the model</strong> with the help of data visualizations and performance metrics.</li>
+                      </ul>
+                    </p>
+                    <p><strong>Dataset</strong>: <a href="https://physionet.org/physiobank/database/mimic3cdb/" target="_blank">MIMIC-III database</a> containing de-identified hospital data from over 50,000 patients as csv files.</p>
+                    <p><strong>Tools</strong>: Python, Pandas, NumPy, Matplotlib, Scikit-learn</p>
                   </div>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">Close</button>
                 </div>
